@@ -48,10 +48,11 @@ To use the management library you will need to instantiate an Apigee object
 
     from apigee.v1.organizations import Apis
 
-    org_name = 'willrubel-deval'
+    org_name = 'myorg'
     username = 'xxx'
     password = 'xxx'
 
     client = Apis(org_name, username, password)
     
     results = client.get()
+    print(results)
