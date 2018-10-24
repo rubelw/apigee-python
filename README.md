@@ -1,7 +1,6 @@
 Apigee - Python
 ===============
 
-### NOT TESTED YES, STILL DEVELOPING ###
 
 |pypi| |build| |coverage| |license|
 
