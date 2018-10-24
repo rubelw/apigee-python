@@ -1,6 +1,5 @@
-**************
 Apigee - Python
-**************
+===============
 
 ### NOT TESTED YES, STILL DEVELOPING ###
 
@@ -9,21 +8,18 @@ Apigee - Python
 In this repository, you'll find all the information about integrating Apigee with Python.
 
 
-==============
 What is Apigee?
-==============
+===============
 
 Apigee helps you to:
 
 * Interact with the apigee edge api
 
-===========================
 Create a free Apigee Account
-===========================
+============================
 
 1. Go to `Apigee`_ and click Sign Up.
 
-============
 Installation
 ============
 
@@ -40,7 +36,6 @@ For python3, use the following command
     pip3 install apigee-python
 
 
-====================
 Management SDK Usage
 ====================
 

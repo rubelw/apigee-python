@@ -56,13 +56,14 @@ Description: **************
         
             from apigee.v1.organizations import Apis
         
-            org_name = 'willrubel-deval'
+            org_name = 'myorg'
             username = 'xxx'
             password = 'xxx'
         
             client = Apis(org_name, username, password)
             
             results = client.get()
+            print(results)
         
 Keywords: apigee,api,client
 Platform: any
