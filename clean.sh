@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $(dirname ${0})
-rm -rf aws_bucket_creator.egg-info/ build/ dist/
+rm -rf apigee_python.egg-info/ build/ dist/
 find . -name .ropeproject -type d | xargs rm -rf
 find . -name "*.pyc" -type f | xargs rm -f
 rm -rf build

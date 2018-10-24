@@ -1,4 +1,5 @@
 from .apis import Apis
+from .roles import Roles
 
 
 class Apigee(object):
@@ -12,3 +13,4 @@ class Apigee(object):
 
     def __init__(self, org_name, username, password):
         self.apis = Apis(org_name, username, password)
+        self.roles = Roles(org_name, username, password)
