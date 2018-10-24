@@ -1,6 +1,7 @@
 from .proxies import Proxies
 from .roles import Roles
 from .products import Products
+from .resourcefiles import ResourceFiles
 
 
 
@@ -17,4 +18,6 @@ class Apigee(object):
         self.proxies = Proxies(org_name, username, password)
         self.roles = Roles(org_name, username, password)
         self.products = Products(org_name, username, password)
+        self.resourcefiles = ResourceFiles(org_name, username, password, environment)
+
 
