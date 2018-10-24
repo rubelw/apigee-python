@@ -1,0 +1,7 @@
+# requirements to build documentation
+Sphinx
+sphinxcontrib-issuetracker
+mock
+twine>=1.9.1
+bumpversion>=0.5
+pytest>=3.4.2
