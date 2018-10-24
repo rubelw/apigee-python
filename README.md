@@ -41,7 +41,7 @@ Management SDK Usage
 
 To use the management library you will need to instantiate an Apigee object 
 
-    from apigee.v1.organizations import Apis
+    from apigee_python.v1.organizations import Apis
 
     org_name = 'myorg'
     username = 'xxx'

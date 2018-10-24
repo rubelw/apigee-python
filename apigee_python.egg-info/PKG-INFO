@@ -1,14 +1,13 @@
 Metadata-Version: 2.1
 Name: apigee-python
-Version: 0.0.1
+Version: 0.0.2
 Summary: Apigee python client.
 Home-page: https://github.com/rubelw/apigee-python
 Author: Will Rubel
 Author-email: willrubel@gmail.com
 License: UNKNOWN
-Description: **************
-        Apigee - Python
-        **************
+Description: Apigee - Python
+        ===============
         
         ### NOT TESTED YES, STILL DEVELOPING ###
         
@@ -17,21 +16,18 @@ Description: **************
         In this repository, you'll find all the information about integrating Apigee with Python.
         
         
-        ==============
         What is Apigee?
-        ==============
+        ===============
         
         Apigee helps you to:
         
         * Interact with the apigee edge api
         
-        ===========================
         Create a free Apigee Account
-        ===========================
+        ============================
         
         1. Go to `Apigee`_ and click Sign Up.
         
-        ============
         Installation
         ============
         
@@ -48,7 +44,6 @@ Description: **************
             pip3 install apigee-python
         
         
-        ====================
         Management SDK Usage
         ====================
         
