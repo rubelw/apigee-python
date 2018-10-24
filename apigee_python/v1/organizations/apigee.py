@@ -1,5 +1,7 @@
-from .apis import Apis
+from .proxies import Proxies
 from .roles import Roles
+from .products import Products
+
 
 
 class Apigee(object):
@@ -12,5 +14,7 @@ class Apigee(object):
     """
 
     def __init__(self, org_name, username, password):
-        self.apis = Apis(org_name, username, password)
+        self.proxies = Proxies(org_name, username, password)
         self.roles = Roles(org_name, username, password)
+        self.products = Products(org_name, username, password)
+

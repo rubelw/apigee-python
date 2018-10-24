@@ -1,3 +1,5 @@
 from .apigee import Apigee
-from .apis import Apis
+from .proxies import Proxies
 from .roles import Roles
+from .products import Products
+

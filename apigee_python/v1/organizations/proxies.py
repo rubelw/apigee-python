@@ -2,7 +2,7 @@ import base64
 from .rest import RestClient
 
 
-class Apis(object):
+class Proxies(object):
 
     """Apigee api endpoints
 
